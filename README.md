@@ -1,32 +1,65 @@
 # React Calculator
-A simple and fully functional React Calculator that supports all basic arithmetic operations, decimal numbers, delete, clear, and even keyboard support.
-This project helped me understand React hooks, event handling, component rendering, and logical state management.
+A modern scientific calculator built using React, featuring keyboard support, calculation history, and an intuitive UI inspired by real-world calculator apps.
 
-# Features
+#Features
+-> Core Calculator
 
-✔ Add, subtract, multiply, divide
+Basic arithmetic: + - × ÷
 
-✔ Supports chained operations (ex: 50 + 20 + 50)
+Decimal & percentage handling
 
-✔ Keyboard support for numbers, operators, and delete
+Smart parentheses ( )
 
-✔ Clean UI using CSS Grid
+Clear (AC) and delete (DEL) functionality
 
-✔ Decimal support
+#-> Scientific Functions
 
-✔ AC (clear all) button
+Trigonometric functions: sin, cos, tan (degree-based)
 
-✔ DEL (delete last digit) button
+Logarithmic functions: log, ln
 
-✔ Real-time display updates
+Square root √
 
-✔ Responsive layout
+Power operator ^
 
-# Tech Used
+Mathematical constants: π, e
+
+#->Keyboard Support
+
+Type numbers and operators directly
+
+Enter → Calculate
+
+Backspace → Delete
+
+Escape → Clear
+
+#Calculation History
+
+Stores last 10 calculations
+
+Toggle history using HIS button
+
+Click a history item to reuse it
+
+Auto-hides history after selection
+
+#UI & UX
+
+Compact, modern dark UI
+
+Responsive layout
+
+Clear separation between display and keys
+
+History panel shown only when needed
+
+#Tech Stack
+
 React (Vite)
 
 JavaScript (ES6+)
 
-CSS Grid
+CSS3
 
-Hooks: useState, useEffect
+React Hooks: useState, useEffect
