@@ -172,6 +172,19 @@ const Calculator = () => {
     setDisplayEXP((p) => p + val);
   };
 
+  useEffect(() => {
+  const savedHistory = localStorage.getItem("calc-history");
+  if (savedHistory) {
+    setHistory(JSON.parse(savedHistory));
+  }
+}, []);
+
+useEffect(() => {
+  localStorage.setItem("calc-history", JSON.stringify(history));
+}, [history]);
+
+
+
   /* ================= KEYBOARD ================= */
 
   useEffect(() => {
